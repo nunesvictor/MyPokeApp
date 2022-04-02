@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_description">
+
+    <fragment
+        android:id="@+id/nav_description"
+        android:name="br.edu.ifto.pdmii.aula0329.avaliacao01.ui.description.DescriptionFragment"
+        android:label="@string/menu_description"
+        tools:layout="@layout/fragment_description" />
+
+    <fragment
+        android:id="@+id/nav_details"
+        android:name="br.edu.ifto.pdmii.aula0329.avaliacao01.ui.details.DetailsFragment"
+        android:label="@string/menu_details"
+        tools:layout="@layout/fragment_details" />
+
+    <fragment
+        android:id="@+id/nav_sizes"
+        android:name="br.edu.ifto.pdmii.aula0329.avaliacao01.ui.sizes.SizeAdjectiveFragment"
+        android:label="@string/menu_sizes"
+        tools:layout="@layout/fragment_sizes" />
+
+    <fragment
+        android:id="@+id/nav_play"
+        android:name="br.edu.ifto.pdmii.aula0329.avaliacao01.ui.play.PlayFragment"
+        android:label="@string/menu_play"
+        tools:layout="@layout/fragment_play" />
+
+    <fragment
+        android:id="@+id/nav_maps"
+        android:name="br.edu.ifto.pdmii.aula0329.avaliacao01.ui.maps.MapsFragment"
+        android:label="@string/menu_location"
+        tools:layout="@layout/fragment_maps" />
+</navigation>

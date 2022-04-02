@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Avaliacao 01</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_location">Localização</string>
+
+    <string name="menu_description">Descrição</string>
+    <string name="menu_details">Detalhes</string>
+    <string name="menu_sizes">Maior/menor</string>
+    <string name="text_pokemon_id">#%1$d</string>
+    <string name="text_pokemon_name">PokemonName</string>
+    <string name="image_pokemon_sprite_desc">Sprite: Front Default</string>
+    <string name="text_pokemon_height">H: %1$d</string>
+    <string name="text_pokemon_weight">W: %1$d</string>
+    <string name="text_pokemon_basexp">XP: %1$d</string>
+    <string name="text_pokemon_type">(%1$s)</string>
+    <string name="text_pokemon_abilities">Skills: <i>%1$s</i></string>
+    <string name="text_pokemon_adjective">PokemonAdjective</string>
+    <string name="text_pokemon_size_adjective_biggest">Maior</string>
+    <string name="text_pokemon_size_adjective_smallest">Menor</string>
+    <string name="text_pokemon_size_adjective_heaviest">Mais pesado</string>
+    <string name="text_pokemon_size_adjective_lighter">Mais leve</string>
+    <string name="menu_play">Jogar</string>
+    <string name="text_pokemon_adjective_winner">Vencedor!</string>
+    <string name="menu_location">Localização</string>
+    <string name="fab">fab</string>
+</resources>
