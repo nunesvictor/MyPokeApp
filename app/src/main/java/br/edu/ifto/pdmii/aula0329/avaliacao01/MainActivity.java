@@ -27,16 +27,18 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        ActivityMainBinding binding = ActivityMainBinding.inflate(getLayoutInflater());
-        setContentView(binding.getRoot());
-
         deleteDatabase("pokemon-db");
         MainActivityViewModel viewModel = new ViewModelProvider(this).get(MainActivityViewModel.class);
 
         viewModel.isDatabaseInitilized().observe(this, isDatabaseInitilized -> {
-            if (!isDatabaseInitilized) return;
-
             Log.d(MainActivity.class.getName(), "isDatabaseInitilized: " + isDatabaseInitilized);
+            if (!isDatabaseInitilized) {
+                setContentView(R.layout.content_main_loader);
+                return;
+            }
+
+            ActivityMainBinding binding = ActivityMainBinding.inflate(getLayoutInflater());
+            setContentView(binding.getRoot());
 
             setSupportActionBar(binding.appBarMain.toolbar);
             binding.appBarMain.fab.setOnClickListener(view ->
