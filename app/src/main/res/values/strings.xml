@@ -27,4 +27,7 @@
     <string name="text_pokemon_adjective_winner">Vencedor!</string>
     <string name="menu_location">Localização</string>
     <string name="fab">fab</string>
+    <string name="external_storage_access_granted">Permissão de escrita em EXTERNAL STORAGE concedida</string>
+    <string name="external_store_request_rationale">Sem a devida permissão não é possível acessar o recurso desejado</string>
+    <string name="permission_denied">Permissão não foi concedida</string>
 </resources>
