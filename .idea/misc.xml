@@ -6,6 +6,7 @@
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.35260416666666666" />
         <entry key="app/src/main/res/layout/app_bar_main.xml" value="0.35260416666666666" />
         <entry key="app/src/main/res/layout/content_main.xml" value="0.35260416666666666" />
+        <entry key="app/src/main/res/layout/content_main_loader.xml" value="0.35260416666666666" />
         <entry key="app/src/main/res/layout/fragment_description.xml" value="0.35260416666666666" />
         <entry key="app/src/main/res/layout/fragment_details.xml" value="0.35260416666666666" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.35260416666666666" />
