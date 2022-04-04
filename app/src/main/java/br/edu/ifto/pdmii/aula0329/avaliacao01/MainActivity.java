@@ -31,7 +31,6 @@ public class MainActivity extends AppCompatActivity {
         MainActivityViewModel viewModel = new ViewModelProvider(this).get(MainActivityViewModel.class);
 
         viewModel.isDatabaseInitilized().observe(this, isDatabaseInitilized -> {
-            Log.d(MainActivity.class.getName(), "isDatabaseInitilized: " + isDatabaseInitilized);
             if (!isDatabaseInitilized) {
                 setContentView(R.layout.content_main_loader);
                 return;

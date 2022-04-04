@@ -1,7 +1,5 @@
 package br.edu.ifto.pdmii.aula0329.avaliacao01.repository;
 
-import android.util.Log;
-
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 
@@ -68,9 +66,7 @@ public class PokemonRepository {
         String templateUrl = "https://pokeapi.co/api/v2/pokemon?limit={0}&offset={1}";
         String url = MessageFormat.format(templateUrl, limit, offset);
 
-        Log.d(PokemonRepository.class.getSimpleName(), url);
         Gson gson = new Gson();
-
         String data = new HttpClient().get(url);
         Type type = new TypeToken<NamedApiResourceList>() {
         }.getType();
@@ -80,7 +76,6 @@ public class PokemonRepository {
 
     private PokemonApiResource makeSynchronousFetchPokemonRequest(String url) throws IOException {
         Gson gson = new Gson();
-
         String data = new HttpClient().get(url);
         Type type = new TypeToken<PokemonApiResource>() {
         }.getType();

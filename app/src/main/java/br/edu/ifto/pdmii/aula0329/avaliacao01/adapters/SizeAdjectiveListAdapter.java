@@ -1,7 +1,6 @@
 package br.edu.ifto.pdmii.aula0329.avaliacao01.adapters;
 
 import android.content.Context;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -84,7 +83,6 @@ public class SizeAdjectiveListAdapter extends DetailListAdapter {
                 break;
         }
 
-        Log.d("SizeAdjectiveListAdapter", String.valueOf(i));
         mViewHolder.sizeAdjectiveTextView.setText(sizeAdjective);
 
         return view;
