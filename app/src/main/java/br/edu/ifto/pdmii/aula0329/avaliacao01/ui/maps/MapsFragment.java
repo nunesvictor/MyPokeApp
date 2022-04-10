@@ -26,7 +26,7 @@ public class MapsFragment extends Fragment {
         googleMap.moveCamera(CameraUpdateFactory.newCameraPosition(
                 new CameraPosition.Builder()
                         .target(reitoriaIFTO)
-                        .zoom(18.f)
+                        .zoom(19.f)
                         .bearing(0)
                         .tilt(0)
                         .build()
